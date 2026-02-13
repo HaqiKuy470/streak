@@ -1,0 +1,26 @@
+name: Daily Streak Burner
+
+on:
+  schedule:
+    # Berjalan otomatis setiap hari jam 00:00 UTC (jam 07:00 WIB)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Supaya bisa kamu tes jalanin manual
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Update log
+        run: |
+          echo "Last streak update: $(date)" > daily_log.txt
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "haqikuy470@gmail.com"
+          git config --local user.name "HaqiKuy470"
+          git add daily_log.txt
+          git commit -m "chore: fire up the streak! [skip ci]"
+          git push
