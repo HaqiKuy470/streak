@@ -1,9 +1,7 @@
 # Hello Everyone 👋
 ## I AM MOH DHIYAULHAQ ULUMUDDIN (HAQI)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/HaqiKuy470/HaqiKuy470/main/header.png" alt="Header" width="100%">
-</p>
+--- 
 
 ### 🎓 Education
 - **Major:** Informatics Engineering Education
