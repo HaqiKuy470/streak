@@ -26,9 +26,8 @@
 
 ### 🔥 Contribution Streak
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HaqiKuy470&theme=tokyonight&hide_border=true&fire=FF0000&ring=FF0000&currStreakNum=FF0000" width="100%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HaqiKuy470&theme=tokyonight&hide_border=true" width="100%" />
 </p>
-
 ---
 
 ### 🛠 Projects In Progress
